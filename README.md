@@ -1,8 +1,8 @@
 # Documentación de proyectos en NestJS
 
-## Description
+## Descripción
 
-Este proyecto es una Api de ejemplo desarrollada con NestJS e incluye funcionalidades básicas para gertionar usuarios y productos proporcionando endpoints para la creación y obtención de estos recursos.
+Este proyecto es una Api de ejemplo desarrollada con NestJS e incluye funcionalidades básicas para gestionar usuarios y productos proporcionando endpoints para la creación y obtención de estos recursos.
 
 ## Herramientas utilizadas
 
@@ -12,7 +12,7 @@ Este proyecto es una Api de ejemplo desarrollada con NestJS e incluye funcionali
 
 - Compodoc: Es una herramienta de documentación para proyectos de TypeScript, muy utilizada en aplicaciones Angular y también compatible con NestJS y otros frameworks TypeScript. Su principal función es generar una documentación estática del código fuente de un proyecto, utilizando comentarios en formato JSDoc, ayudando a visualizar la estructura y arquitectura del mismo de manera clara y organizada.
 
-## Prerequisitos
+## Requisito previos
 
 - NodeJS (v12 o superior)
 - npm(v6 o superior)
@@ -26,13 +26,13 @@ Este proyecto es una Api de ejemplo desarrollada con NestJS e incluye funcionali
 $ git clone https://github.com/Ariel2911/19-nest-js_documentacion-y-comunicacion.git
 ```
 
-2. Navegar al directorio del proyecto
+2. Navegar al directorio
 
 ```bash
 $ cd 19-nest-js_documentacion-y-comunicacion.git
 ```
 
-3. Instalar dependencias del proyecto
+3. Instalar dependencias
 
 ```bash
 $ npm install
@@ -41,7 +41,6 @@ $ npm install
 4. Ejecutar el sevidor
 
 ```bash
-# development
 $ npm run start
 ```
 
