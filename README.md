@@ -2,7 +2,7 @@
 
 ## Descripción
 
-Este proyecto es una Api de ejemplo desarrollada con NestJS e incluye funcionalidades básicas para gestionar usuarios y productos proporcionando endpoints para la creación y obtención de estos recursos.
+Este proyecto es una Api de ejemplo desarrollada con NestJS que incluye funcionalidades básicas para gestionar usuarios y productos proporcionando endpoints para la creación y obtención de estos recursos.
 
 ## Herramientas utilizadas
 
@@ -12,7 +12,7 @@ Este proyecto es una Api de ejemplo desarrollada con NestJS e incluye funcionali
 
 - Compodoc: Es una herramienta de documentación para proyectos de TypeScript, muy utilizada en aplicaciones Angular y también compatible con NestJS y otros frameworks TypeScript. Su principal función es generar una documentación estática del código fuente de un proyecto, utilizando comentarios en formato JSDoc, ayudando a visualizar la estructura y arquitectura del mismo de manera clara y organizada.
 
-## Requisito previos
+## Requisitos previos
 
 - NodeJS (v12 o superior)
 - npm(v6 o superior)
@@ -38,10 +38,14 @@ $ cd 19-nest-js_documentacion-y-comunicacion.git
 $ npm install
 ```
 
-4. Ejecutar el sevidor
+## Ejecución
 
 ```bash
 $ npm run start
 ```
+
+## Punto de acceso
+
+http://localhost:3000
 
 ## Uso
