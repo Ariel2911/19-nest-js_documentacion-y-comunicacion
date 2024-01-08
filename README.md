@@ -1,73 +1,48 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
-</p>
-
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
-
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+# Documentación de proyectos en NestJS
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+Este proyecto es una Api de ejemplo desarrollada con NestJS e incluye funcionalidades básicas para gertionar usuarios y productos proporcionando endpoints para la creación y obtención de estos recursos.
 
-## Installation
+## Herramientas utilizadas
+
+- Readme: Es una pieza que no debería faltar en ningún proyecto y como su nombre lo indica siempre deberíamos leerlo, usualmente se escribe en markdown. Vive en el mismo repositorio y nos indica cómo comenzar a utilizarlo, donde encontramos información útil y más.
+
+- Swagger(OpenAPI en NestJS): Esta herramienta define una interfaz estándar para describir APIs REST, que incluye rutas, parámetros, respuestas y mucho másUna de las características más destacadas de Swagger **es su capacidad para generar automáticamente documentación legible y explorable**. En NestJS, cuando se utiliza se emplean varios recoradores que ayudan a definir y organizar la documentación de manera clara y estructurada.
+
+- Compodoc: Es una herramienta de documentación para proyectos de TypeScript, muy utilizada en aplicaciones Angular y también compatible con NestJS y otros frameworks TypeScript. Su principal función es generar una documentación estática del código fuente de un proyecto, utilizando comentarios en formato JSDoc, ayudando a visualizar la estructura y arquitectura del mismo de manera clara y organizada.
+
+## Prerequisitos
+
+- NodeJS (v12 o superior)
+- npm(v6 o superior)
+- NestJS CLI
+
+## Instalación
+
+1. Clonar el repositorio
 
 ```bash
-$ pnpm install
+$ git clone https://github.com/Ariel2911/19-nest-js_documentacion-y-comunicacion.git
 ```
 
-## Running the app
+2. Navegar al directorio del proyecto
+
+```bash
+$ cd 19-nest-js_documentacion-y-comunicacion.git
+```
+
+3. Instalar dependencias del proyecto
+
+```bash
+$ npm install
+```
+
+4. Ejecutar el sevidor
 
 ```bash
 # development
-$ pnpm run start
-
-# watch mode
-$ pnpm run start:dev
-
-# production mode
-$ pnpm run start:prod
+$ npm run start
 ```
 
-## Test
-
-```bash
-# unit tests
-$ pnpm run test
-
-# e2e tests
-$ pnpm run test:e2e
-
-# test coverage
-$ pnpm run test:cov
-```
-
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
+## Uso
