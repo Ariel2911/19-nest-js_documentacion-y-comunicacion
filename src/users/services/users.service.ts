@@ -18,7 +18,7 @@ export class UsersService {
     return this.users;
   }
 
-  updateUser(id: number, userToUpdate: UserDto) {
+  updateUser(id: number, userToUpdate: UserDto): string {
     const indexUserToUpdate = this.users.findIndex((user) => user.id === id);
 
     if (indexUserToUpdate !== -1) {
@@ -36,7 +36,7 @@ export class UsersService {
     return 'Usuario no encontardo';
   }
 
-  deleteUser(id: number) {
+  deleteUser(id: number): string {
     const indexUserToDelete = this.users.findIndex((user) => user.id === id);
 
     if (indexUserToDelete !== -1) {
