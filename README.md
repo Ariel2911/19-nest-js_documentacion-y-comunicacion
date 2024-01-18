@@ -48,4 +48,6 @@ $ npm run start
 
 http://localhost:3000
 
-## Uso
+## Documentación
+
+La información detallada de los end point se encuantra en [http://localhost:300/api/docs](http://localhost:300/api/docs) después de iniciar el servidor. Esta documentación fue generada usando Swagger.
