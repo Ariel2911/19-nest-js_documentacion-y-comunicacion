@@ -9,14 +9,26 @@ import {
 } from '@nestjs/common';
 import { UsersService } from '../services/users.service';
 import { CreateUserDto, UserDto } from '../dto/user.dto';
+import { ApiOperation, ApiResponse, ApiTags } from '@nestjs/swagger';
 
+@ApiTags('users')
 @Controller('users')
 export class UsersController {
   constructor(private readonly usersService: UsersService) {}
 
   @Post()
+  @ApiOperation({ summary: 'Crear usuario' })
+  @ApiResponse({
+    status: 201,
+    description: 'Retorna los datos del usuario creado',
+    type: UserDto,
+  })
   createUser(@Body() createUserDto: CreateUserDto) {
-    return this.usersService.createUser(createUserDto);
+    try {
+      return this.usersService.createUser(createUserDto);
+    } catch (e) {
+      return e.message;
+    }
   }
 
   @Get()
