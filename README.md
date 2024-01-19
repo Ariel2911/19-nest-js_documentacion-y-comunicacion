@@ -51,3 +51,5 @@ http://localhost:3000
 ## Documentación
 
 La información detallada de los end point se encuantra en [http://localhost:300/api/docs](http://localhost:300/api/docs) después de iniciar el servidor. Esta documentación fue generada usando Swagger.
+
+Para ver la documentación generada por compodoc ejeutar el script 'pnpm rub compodoc' e ir a la dirección http que se muestra en la terminal.
